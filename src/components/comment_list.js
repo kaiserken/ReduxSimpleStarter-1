@@ -3,9 +3,9 @@ import {connect} from 'react-redux';
 
 
 const CommentList = (props)=>{
-  const list  = props.comments.map(comment => <li key = {comment}>{comment}</li>);
+  const list  = props.comments.map(comment => <li className = "list-group-item" key = {comment}>{comment}</li>);
   return (
-    <ul className = "comment-list">
+    <ul className = "comment-list list-group">
       {list}
     </ul>
   );
