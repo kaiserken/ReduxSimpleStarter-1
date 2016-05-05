@@ -14,7 +14,7 @@ export default class App extends Component {
         <div className = 'col-md-12'>
           <CommentBox/>
         </div>
-        <div className = "col-md-9">
+        <div className = "col-md-9, ">
           <CommentList/>
         </div>
       </div>
